@@ -1,0 +1,1 @@
+platforms-ios-helloWorld-Resources-splash 启动画面图片

