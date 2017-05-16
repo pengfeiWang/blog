@@ -1,4 +1,4 @@
-###jqmobi 入门
+### jqmobi 入门
 
 在 [jqmobi官网](http://app-framework-software.intel.com/) 获取最新的版本, 或者 通过 `git clone git@github.com:01org/appframework.git` 获取.
 
